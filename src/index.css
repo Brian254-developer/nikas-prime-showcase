@@ -173,7 +173,12 @@ All colors MUST be HSL.
 
   /* Property card animations */
   .property-card {
-    @apply transition-luxury hover:scale-105 hover:shadow-gold cursor-pointer;
+    @apply transition-luxury hover:scale-105 cursor-pointer;
+    transition: var(--transition-luxury);
+  }
+  
+  .property-card:hover {
+    box-shadow: var(--shadow-gold);
   }
   
   .property-card:hover .property-image {
