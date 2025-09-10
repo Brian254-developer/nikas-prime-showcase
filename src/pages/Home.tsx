@@ -15,8 +15,8 @@ const Home = () => {
     {
       id: "1",
       title: "Luxury Modern Mansion",
-      location: "Beverly Hills, CA",
-      price: "$4,200,000",
+      location: "Karen, Nairobi",
+      price: "KES 420,000,000",
       image: heroImage,
       type: "Mansion",
       beds: 6,
@@ -27,8 +27,8 @@ const Home = () => {
     {
       id: "2",
       title: "Premium Penthouse Suite",
-      location: "Manhattan, NY",
-      price: "$2,800,000",
+      location: "Westlands, Nairobi",
+      price: "KES 280,000,000",
       image: apartmentImage,
       type: "Apartment",
       beds: 4,
@@ -39,8 +39,8 @@ const Home = () => {
     {
       id: "3",
       title: "Executive Maisonette",
-      location: "Miami Beach, FL",
-      price: "$1,950,000",
+      location: "Kilimani, Nairobi",
+      price: "KES 195,000,000",
       image: maisonetteImage,
       type: "Maisonette",
       beds: 5,
@@ -96,7 +96,7 @@ const Home = () => {
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
             Discover premium properties that embody elegance, sophistication, 
-            and unparalleled luxury in the world's most prestigious locations.
+            and unparalleled luxury in Kenya's most prestigious locations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/properties">
@@ -168,7 +168,7 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
               { number: "500+", label: "Properties Sold" },
-              { number: "$2.5B+", label: "Total Sales Volume" },
+              { number: "KES 250B+", label: "Total Sales Volume" },
               { number: "15+", label: "Years Experience" },
               { number: "98%", label: "Client Satisfaction" },
             ].map((stat, index) => (

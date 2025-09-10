@@ -12,8 +12,8 @@ const Blog = () => {
   const blogPosts = [
     {
       id: "1",
-      title: "Top 10 Luxury Real Estate Trends for 2024",
-      excerpt: "Discover the latest trends shaping the luxury real estate market, from smart home technology to sustainable luxury features that modern buyers demand.",
+      title: "Top 10 Luxury Real Estate Trends for 2024 in Kenya",
+      excerpt: "Discover the latest trends shaping the Kenyan luxury real estate market, from smart home technology to sustainable luxury features that modern buyers demand.",
       author: "Sarah Mitchell",
       date: "December 15, 2024",
       category: "Market Insights",
@@ -22,8 +22,8 @@ const Blog = () => {
     },
     {
       id: "2",
-      title: "Investment Guide: Why Luxury Real Estate Remains Strong",
-      excerpt: "An in-depth analysis of luxury real estate as an investment vehicle, including market performance data and future projections for high-end properties.",
+      title: "Investment Guide: Why Kenyan Luxury Real Estate Remains Strong",
+      excerpt: "An in-depth analysis of luxury real estate as an investment vehicle in Kenya, including market performance data and future projections for high-end properties.",
       author: "David Chen",
       date: "December 10, 2024",
       category: "Investment",
@@ -32,9 +32,9 @@ const Blog = () => {
     },
     {
       id: "3",
-      title: "Beverly Hills vs. Manhattan: A Luxury Buyer's Comparison",
-      excerpt: "Compare two of America's most prestigious real estate markets. Learn about pricing trends, lifestyle differences, and investment potential.",
-      author: "Nikolas Realty",
+      title: "Karen vs. Westlands: A Luxury Buyer's Comparison",
+      excerpt: "Compare two of Nairobi's most prestigious real estate markets. Learn about pricing trends, lifestyle differences, and investment potential in these prime locations.",
+      author: "Monicah Githinji",
       date: "December 5, 2024",
       category: "Market Insights",
       readTime: "6 min read",
@@ -64,7 +64,7 @@ const Blog = () => {
       id: "6",
       title: "Selling Your Luxury Property: Maximizing Your Return",
       excerpt: "Expert strategies for selling high-end real estate, including staging tips, pricing strategies, and marketing approaches that work.",
-      author: "Nikolas Realty",
+      author: "Monicah Githinji",
       date: "November 15, 2024",
       category: "Selling Guide",
       readTime: "9 min read",

@@ -30,8 +30,8 @@ const PropertyDetails = () => {
   const property = {
     id: "1",
     title: "Luxury Modern Mansion",
-    location: "Beverly Hills, CA",
-    price: "$4,200,000",
+    location: "Karen, Nairobi",
+    price: "KES 420,000,000",
     type: "Mansion",
     beds: 6,
     baths: 8,
@@ -39,8 +39,8 @@ const PropertyDetails = () => {
     lotSize: "2.5 acres",
     yearBuilt: "2022",
     parking: "4 car garage",
-    description: "Step into luxury with this stunning modern mansion that redefines contemporary living. This architectural masterpiece seamlessly blends cutting-edge design with unparalleled comfort, featuring soaring ceilings, floor-to-ceiling windows, and premium finishes throughout.",
-    longDescription: "This exceptional property represents the pinnacle of luxury living in one of Beverly Hills' most prestigious neighborhoods. The open-concept design flows effortlessly from room to room, creating an ideal environment for both intimate family gatherings and grand-scale entertaining. The gourmet kitchen features top-of-the-line appliances, custom cabinetry, and a large island perfect for culinary adventures. The master suite is a private retreat with a spa-like bathroom, walk-in closets, and breathtaking views of the surrounding landscape.",
+    description: "Step into luxury with this stunning modern mansion that redefines contemporary living in Karen. This architectural masterpiece seamlessly blends cutting-edge design with unparalleled comfort, featuring soaring ceilings, floor-to-ceiling windows, and premium finishes throughout.",
+    longDescription: "This exceptional property represents the pinnacle of luxury living in one of Nairobi's most prestigious neighborhoods. The open-concept design flows effortlessly from room to room, creating an ideal environment for both intimate family gatherings and grand-scale entertaining. The gourmet kitchen features top-of-the-line appliances, custom cabinetry, and a large island perfect for culinary adventures. The master suite is a private retreat with a spa-like bathroom, walk-in closets, and breathtaking views of the surrounding landscape.",
     images: [heroImage, apartmentImage, maisonetteImage, bungalowImage],
     features: [
       "Home Theater",
@@ -307,11 +307,11 @@ const PropertyDetails = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-accent" />
-                  <span className="text-foreground">+1 (555) 123-4567</span>
+                  <span className="text-foreground">0710132320</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-accent" />
-                  <span className="text-foreground">agent@nikasrealty.com</span>
+                  <span className="text-foreground">nikasrealty@gmail.com</span>
                 </div>
                 <div className="flex space-x-2 pt-4">
                   <Button variant="luxury" className="flex-1">
