@@ -53,11 +53,11 @@ const Navbar = () => {
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
               <div className="flex items-center space-x-1">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>0710132320</span>
               </div>
               <div className="flex items-center space-x-1">
                 <Mail className="w-4 h-4" />
-                <span>info@nikasrealty.com</span>
+                <span>nikasrealty@gmail.com</span>
               </div>
             </div>
             <Button variant="luxury" size="sm">
@@ -98,11 +98,11 @@ const Navbar = () => {
                 <div className="flex flex-col space-y-2 text-sm text-muted-foreground mb-4">
                   <div className="flex items-center space-x-2">
                     <Phone className="w-4 h-4" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>0710132320</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Mail className="w-4 h-4" />
-                    <span>info@nikasrealty.com</span>
+                    <span>nikasrealty@gmail.com</span>
                   </div>
                 </div>
                 <Button variant="luxury" className="w-full">
