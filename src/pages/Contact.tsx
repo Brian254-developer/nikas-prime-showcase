@@ -64,9 +64,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Visit Our Office</h3>
                     <p className="text-muted-foreground">
-                      123 Luxury Avenue<br />
-                      Premium District, PD 12345<br />
-                      United States
+                      Westland Arcade<br />
+                      Nairobi, Westlands<br />
+                      Kenya
                     </p>
                   </div>
                 </div>
@@ -80,9 +80,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Call Us</h3>
                     <p className="text-muted-foreground">
-                      Main: +1 (555) 123-4567<br />
-                      Luxury Line: +1 (555) 123-4568<br />
-                      Available 24/7 for urgent inquiries
+                      Main: 0710132320<br />
+                      Available during business hours
                     </p>
                   </div>
                 </div>
@@ -96,9 +95,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Email Us</h3>
                     <p className="text-muted-foreground">
-                      General: info@nikasrealty.com<br />
-                      Sales: sales@nikasrealty.com<br />
-                      Support: support@nikasrealty.com
+                      General: nikasrealty@gmail.com<br />
+                      Sales: nikasrealty@gmail.com<br />
+                      Support: nikasrealty@gmail.com
                     </p>
                   </div>
                 </div>
@@ -171,7 +170,7 @@ const Contact = () => {
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => handleChange("phone", e.target.value)}
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="07xxxxxxxx"
                       className="bg-background"
                     />
                   </div>
@@ -244,7 +243,7 @@ const Contact = () => {
                 </h3>
                 <p className="text-muted-foreground">
                   Google Maps integration would be displayed here<br />
-                  123 Luxury Avenue, Premium District, PD 12345
+                  Westland Arcade, Nairobi, Westlands, Kenya
                 </p>
               </div>
             </div>
@@ -270,7 +269,7 @@ const Contact = () => {
               },
               {
                 question: "What areas do you specialize in?",
-                answer: "We specialize in luxury properties across Beverly Hills, Manhattan, Miami Beach, Malibu, and other premium locations worldwide."
+                answer: "We specialize in luxury properties across Nairobi, Karen, Westlands, Kilimani, and other premium locations in Kenya."
               },
               {
                 question: "Do you offer investment consultation?",

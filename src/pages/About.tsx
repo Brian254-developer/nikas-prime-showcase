@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const About = () => {
   const stats = [
     { number: "500+", label: "Properties Sold", icon: Award },
-    { number: "$2.5B+", label: "Total Sales Volume", icon: Target },
+    { number: "KES 250B+", label: "Total Sales Volume", icon: Target },
     { number: "15+", label: "Years Experience", icon: Users },
     { number: "98%", label: "Client Satisfaction", icon: Heart },
   ];
@@ -57,13 +57,13 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 2009 by Nikolas Realty, our company began with a simple yet ambitious vision: 
-                  to redefine the luxury real estate experience by combining unparalleled market expertise 
+                  Founded in 2009 by Monicah Githinji, our company began with a simple yet ambitious vision: 
+                  to redefine the luxury real estate experience in Kenya by combining unparalleled market expertise 
                   with personalized, white-glove service.
                 </p>
                 <p>
-                  What started as a boutique firm has grown into a respected leader in the luxury real estate 
-                  market, with a portfolio spanning from Beverly Hills mansions to Manhattan penthouses. 
+                  What started as a boutique firm has grown into a respected leader in the Kenyan luxury real estate 
+                  market, with a portfolio spanning from Karen mansions to Westlands penthouses. 
                   Our success is built on a foundation of trust, integrity, and an unwavering commitment 
                   to our clients' dreams.
                 </p>
@@ -174,9 +174,9 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Nikolas Realty",
+                name: "Monicah Githinji",
                 role: "Founder & CEO",
-                bio: "With over 20 years in luxury real estate, Nikolas has built Nikas Realty into a premier brand.",
+                bio: "With over 15 years in luxury real estate in Kenya, Monicah has built Nikas Realty into a premier brand.",
               },
               {
                 name: "Sarah Mitchell",

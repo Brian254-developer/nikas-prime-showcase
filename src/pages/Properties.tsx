@@ -20,8 +20,8 @@ const Properties = () => {
     {
       id: "1",
       title: "Luxury Modern Mansion",
-      location: "Beverly Hills, CA",
-      price: "$4,200,000",
+      location: "Karen, Nairobi",
+      price: "KES 420,000,000",
       image: heroImage,
       type: "Mansion",
       beds: 6,
@@ -32,8 +32,8 @@ const Properties = () => {
     {
       id: "2",
       title: "Premium Penthouse Suite",
-      location: "Manhattan, NY",
-      price: "$2,800,000",
+      location: "Westlands, Nairobi",
+      price: "KES 280,000,000",
       image: apartmentImage,
       type: "Apartment",
       beds: 4,
@@ -44,8 +44,8 @@ const Properties = () => {
     {
       id: "3",
       title: "Executive Maisonette",
-      location: "Miami Beach, FL",
-      price: "$1,950,000",
+      location: "Kilimani, Nairobi",
+      price: "KES 195,000,000",
       image: maisonetteImage,
       type: "Maisonette",
       beds: 5,
@@ -55,8 +55,8 @@ const Properties = () => {
     {
       id: "4",
       title: "Designer Bungalow",
-      location: "Malibu, CA",
-      price: "$3,450,000",
+      location: "Lavington, Nairobi",
+      price: "KES 345,000,000",
       image: bungalowImage,
       type: "Bungalow",
       beds: 4,
@@ -66,8 +66,8 @@ const Properties = () => {
     {
       id: "5",
       title: "Oceanfront Villa",
-      location: "Hamptons, NY",
-      price: "$5,800,000",
+      location: "Runda, Nairobi",
+      price: "KES 580,000,000",
       image: heroImage,
       type: "Mansion",
       beds: 8,
@@ -78,8 +78,8 @@ const Properties = () => {
     {
       id: "6",
       title: "City Center Apartment",
-      location: "Chicago, IL",
-      price: "$1,200,000",
+      location: "Upperhill, Nairobi",
+      price: "KES 120,000,000",
       image: apartmentImage,
       type: "Apartment",
       beds: 3,
@@ -89,13 +89,13 @@ const Properties = () => {
   ];
 
   const propertyTypes = ["all", "Mansion", "Apartment", "Maisonette", "Bungalow", "Land"];
-  const locations = ["all", "Beverly Hills, CA", "Manhattan, NY", "Miami Beach, FL", "Malibu, CA", "Hamptons, NY", "Chicago, IL"];
+  const locations = ["all", "Karen, Nairobi", "Westlands, Nairobi", "Kilimani, Nairobi", "Lavington, Nairobi", "Runda, Nairobi", "Upperhill, Nairobi"];
   const priceRanges = [
     { value: "all", label: "All Prices" },
-    { value: "0-1000000", label: "Under $1M" },
-    { value: "1000000-3000000", label: "$1M - $3M" },
-    { value: "3000000-5000000", label: "$3M - $5M" },
-    { value: "5000000+", label: "$5M+" },
+    { value: "0-100000000", label: "Under KES 100M" },
+    { value: "100000000-300000000", label: "KES 100M - 300M" },
+    { value: "300000000-500000000", label: "KES 300M - 500M" },
+    { value: "500000000+", label: "KES 500M+" },
   ];
 
   const filteredProperties = properties.filter((property) => {
@@ -107,10 +107,10 @@ const Properties = () => {
     let matchesPrice = true;
     if (priceRange !== "all") {
       const price = parseInt(property.price.replace(/[^0-9]/g, ""));
-      if (priceRange === "0-1000000") matchesPrice = price < 1000000;
-      else if (priceRange === "1000000-3000000") matchesPrice = price >= 1000000 && price <= 3000000;
-      else if (priceRange === "3000000-5000000") matchesPrice = price >= 3000000 && price <= 5000000;
-      else if (priceRange === "5000000+") matchesPrice = price > 5000000;
+      if (priceRange === "0-100000000") matchesPrice = price < 100000000;
+      else if (priceRange === "100000000-300000000") matchesPrice = price >= 100000000 && price <= 300000000;
+      else if (priceRange === "300000000-500000000") matchesPrice = price >= 300000000 && price <= 500000000;
+      else if (priceRange === "500000000+") matchesPrice = price > 500000000;
     }
 
     return matchesSearch && matchesType && matchesLocation && matchesPrice;

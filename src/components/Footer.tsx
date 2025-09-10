@@ -89,17 +89,17 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-accent mt-1" />
                 <div className="text-muted-foreground">
-                  <p>123 Luxury Avenue</p>
-                  <p>Premium District, PD 12345</p>
+                  <p>Westland Arcade</p>
+                  <p>Nairobi, Westlands, Kenya</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-accent" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">0710132320</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-accent" />
-                <span className="text-muted-foreground">info@nikasrealty.com</span>
+                <span className="text-muted-foreground">nikasrealty@gmail.com</span>
               </div>
             </div>
           </div>
