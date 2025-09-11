@@ -12,6 +12,8 @@ import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Calculator from "./components/Calculator";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +38,8 @@ const App = () => (
             </Routes>
           </main>
           <Footer />
+          <Calculator />
+          <WhatsAppButton />
         </div>
       </BrowserRouter>
     </TooltipProvider>
