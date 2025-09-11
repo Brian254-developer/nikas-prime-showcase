@@ -23,11 +23,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/ace86e47-0469-456a-82c1-833a8c58080d.png" 
-              alt="Nikas Realty" 
-              className="w-32 h-auto"
-            />
+            <div className="bg-white/90 backdrop-blur-sm rounded-lg p-2 shadow-sm">
+              <img 
+                src="/lovable-uploads/ace86e47-0469-456a-82c1-833a8c58080d.png" 
+                alt="Nikas Realty" 
+                className="w-28 h-auto"
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
