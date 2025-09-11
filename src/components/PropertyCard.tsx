@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { MapPin, Bed, Bath, Square } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 interface PropertyCardProps {
   id: string;
@@ -13,6 +14,8 @@ interface PropertyCardProps {
   baths?: number;
   size?: string;
   featured?: boolean;
+  saleType?: "For Sale" | "To Let";
+  status?: "Offplan" | "Ready";
 }
 
 const PropertyCard = ({
@@ -26,6 +29,8 @@ const PropertyCard = ({
   baths,
   size,
   featured = false,
+  saleType = "For Sale",
+  status = "Ready",
 }: PropertyCardProps) => {
   return (
     <div className={`property-card card-shadow rounded-xl overflow-hidden luxury-gradient border border-border/20 ${
@@ -42,8 +47,16 @@ const PropertyCard = ({
             Featured
           </div>
         )}
-        <div className="absolute top-4 right-4 bg-secondary/90 backdrop-blur-sm text-secondary-foreground px-3 py-1 rounded-full text-sm font-medium">
-          {type}
+        <div className="absolute top-4 right-4 flex flex-col gap-2">
+          <Badge variant="secondary" className="bg-secondary/90 backdrop-blur-sm">
+            {type}
+          </Badge>
+          <Badge variant={saleType === "For Sale" ? "default" : "outline"} className="bg-primary/90 backdrop-blur-sm">
+            {saleType}
+          </Badge>
+          <Badge variant={status === "Offplan" ? "destructive" : "default"} className="bg-accent/90 backdrop-blur-sm">
+            {status}
+          </Badge>
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 hover:opacity-100 transition-luxury flex items-end p-6">
           <Link to={`/property/${id}`}>

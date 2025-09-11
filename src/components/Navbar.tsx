@@ -23,12 +23,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center font-display font-bold text-accent-foreground text-xl">
-              N
-            </div>
-            <span className="font-display font-bold text-2xl text-accent">
-              Nikas Realty
-            </span>
+            <img 
+              src="/lovable-uploads/ace86e47-0469-456a-82c1-833a8c58080d.png" 
+              alt="Nikas Realty" 
+              className="w-32 h-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -51,10 +50,15 @@ const Navbar = () => {
           {/* Contact Info & CTA */}
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-              <div className="flex items-center space-x-1">
+              <a 
+                href="https://wa.me/254710132320" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center space-x-1 hover:text-accent transition-luxury"
+              >
                 <Phone className="w-4 h-4" />
                 <span>0710132320</span>
-              </div>
+              </a>
               <div className="flex items-center space-x-1">
                 <Mail className="w-4 h-4" />
                 <span>nikasrealty@gmail.com</span>
@@ -96,10 +100,15 @@ const Navbar = () => {
               ))}
               <div className="px-4 pt-4 border-t border-border/20">
                 <div className="flex flex-col space-y-2 text-sm text-muted-foreground mb-4">
-                  <div className="flex items-center space-x-2">
+                  <a 
+                    href="https://wa.me/254710132320" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 hover:text-accent transition-luxury"
+                  >
                     <Phone className="w-4 h-4" />
                     <span>0710132320</span>
-                  </div>
+                  </a>
                   <div className="flex items-center space-x-2">
                     <Mail className="w-4 h-4" />
                     <span>nikasrealty@gmail.com</span>

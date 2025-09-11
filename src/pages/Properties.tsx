@@ -28,6 +28,8 @@ const Properties = () => {
       baths: 8,
       size: "8,500 sq ft",
       featured: true,
+      saleType: "For Sale" as const,
+      status: "Ready" as const,
     },
     {
       id: "2",
@@ -40,6 +42,8 @@ const Properties = () => {
       baths: 4,
       size: "3,200 sq ft",
       featured: true,
+      saleType: "To Let" as const,
+      status: "Ready" as const,
     },
     {
       id: "3",
@@ -51,6 +55,8 @@ const Properties = () => {
       beds: 5,
       baths: 5,
       size: "4,800 sq ft",
+      saleType: "For Sale" as const,
+      status: "Offplan" as const,
     },
     {
       id: "4",
@@ -62,6 +68,8 @@ const Properties = () => {
       beds: 4,
       baths: 5,
       size: "5,200 sq ft",
+      saleType: "To Let" as const,
+      status: "Ready" as const,
     },
     {
       id: "5",
@@ -74,6 +82,8 @@ const Properties = () => {
       baths: 10,
       size: "12,000 sq ft",
       featured: true,
+      saleType: "For Sale" as const,
+      status: "Offplan" as const,
     },
     {
       id: "6",
@@ -85,6 +95,8 @@ const Properties = () => {
       beds: 3,
       baths: 3,
       size: "2,400 sq ft",
+      saleType: "For Sale" as const,
+      status: "Ready" as const,
     },
   ];
 
