@@ -22,12 +22,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="bg-white/90 backdrop-blur-sm rounded-lg p-2 shadow-sm">
+          <Link to="/" className="flex items-center space-x-3 relative z-10">
+            <div className="bg-gradient-to-r from-white to-gray-50 rounded-xl p-3 shadow-luxury border border-white/20 hover:shadow-gold transition-all duration-300 hover:scale-105">
               <img 
                 src="/lovable-uploads/ace86e47-0469-456a-82c1-833a8c58080d.png" 
                 alt="Nikas Realty" 
-                className="w-28 h-auto"
+                className="w-24 h-auto filter drop-shadow-sm"
               />
             </div>
           </Link>

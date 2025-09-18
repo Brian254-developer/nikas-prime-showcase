@@ -18,6 +18,8 @@ Changes made via Lovable will be committed automatically to this repo.
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
+**IMPORTANT: This is a React/Vite application - VS Code Live Server will NOT work!**
+
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
@@ -34,7 +36,11 @@ npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
+
+# Step 5: Open http://localhost:8080 in your browser
 ```
+
+**VS Code Users:** Do NOT use Live Server extension. Use the terminal commands above instead.
 
 **Edit a file directly in GitHub**
 
