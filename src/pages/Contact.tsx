@@ -49,7 +49,6 @@ const Contact = () => {
   const handleChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
-  };
 
   return (
     <div className="min-h-screen bg-background">
