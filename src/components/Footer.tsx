@@ -12,8 +12,8 @@ const Footer = () => {
               <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center font-display font-bold text-accent-foreground text-2xl">
                 N
               </div>
-              <span className="font-display font-bold text-2xl text-accent">
-                Nikas Realty
+              <span className="font-display font-bold text-2xl">
+                <span className="text-foreground">Nikas</span> <span className="text-accent">Realty</span>
               </span>
             </div>
             <p className="text-muted-foreground leading-relaxed">

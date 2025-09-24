@@ -27,9 +27,9 @@ const Navbar = () => {
               <img 
                 src="/lovable-uploads/ace86e47-0469-456a-82c1-833a8c58080d.png" 
                 alt="Nikas Realty" 
-                className="w-24 h-auto filter brightness-110 contrast-110 drop-shadow-[0_2px_4px_rgba(255,255,255,0.3)]"
+                className="w-24 h-auto"
                 style={{
-                  filter: 'brightness(1.2) contrast(1.1) drop-shadow(0 1px 3px rgba(255,255,255,0.4)) drop-shadow(0 0 1px rgba(0,0,0,0.8))'
+                  filter: 'brightness(1.3) contrast(1.3) saturate(1.2) drop-shadow(0 2px 8px rgba(255,215,0,0.3)) drop-shadow(0 0 2px rgba(255,255,255,0.8))'
                 }}
               />
             </div>
