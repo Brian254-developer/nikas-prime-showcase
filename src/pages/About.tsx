@@ -38,10 +38,10 @@ const About = () => {
       <section className="hero-gradient py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6 animate-slide-up">
-            About Nikas Realty
+            About <span className="text-foreground">Nikas</span> <span className="text-accent">Realty</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-slide-up">
-            For over 15 years, Nikas Realty has been the premier destination for luxury real estate, 
+            For the past year, Nikas Realty has been the premier destination for luxury real estate, 
             connecting discerning clients with extraordinary properties in the world's most prestigious locations.
           </p>
         </div>
@@ -57,7 +57,7 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 2009 by Monicah Githinji, our company began with a simple yet ambitious vision: 
+                  Founded in 2024 by Monicah Githinji, our company began with a simple yet ambitious vision: 
                   to redefine the luxury real estate experience in Kenya by combining unparalleled market expertise 
                   with personalized, white-glove service.
                 </p>
@@ -68,7 +68,7 @@ const About = () => {
                   to our clients' dreams.
                 </p>
                 <p>
-                  Today, Nikas Realty stands as a testament to the power of vision, dedication, and the 
+                  Today, <span className="text-foreground font-semibold">Nikas</span> <span className="text-accent font-semibold">Realty</span> stands as a testament to the power of vision, dedication, and the 
                   belief that every client deserves nothing less than extraordinary service when making 
                   one of life's most important decisions.
                 </p>
@@ -176,7 +176,7 @@ const About = () => {
               {
                 name: "Monicah Githinji",
                 role: "Founder & CEO",
-                bio: "With over 15 years in luxury real estate in Kenya, Monicah has built Nikas Realty into a premier brand.",
+                bio: "With extensive experience in luxury real estate in Kenya, Monicah has built Nikas Realty into a premier brand.",
               },
               {
                 name: "Sarah Mitchell",
@@ -216,7 +216,7 @@ const About = () => {
               Ready to Begin Your Journey?
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Experience the Nikas Realty difference. Let us help you discover your perfect property 
+              Experience the <span className="text-foreground font-semibold">Nikas</span> <span className="text-accent font-semibold">Realty</span> difference. Let us help you discover your perfect property 
               and make your real estate dreams a reality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

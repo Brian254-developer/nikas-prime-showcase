@@ -107,7 +107,7 @@ const Footer = () => {
 
         <div className="border-t border-border/20 mt-12 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 Nikas Realty. All rights reserved. | Luxury Real Estate Excellence
+            © 2024 <span className="text-foreground font-semibold">Nikas</span> <span className="text-accent font-semibold">Realty</span>. All rights reserved. | Luxury Real Estate Excellence
           </p>
         </div>
       </div>
