@@ -27,9 +27,9 @@ const Navbar = () => {
               <img 
                 src="/src/assets/nikas-realty-logo.jpg" 
                 alt="Nikas Realty" 
-                className="w-24 h-auto bg-white/5 rounded-lg p-1"
+                className="w-24 h-auto bg-background/20 rounded-lg p-1 border border-border/30"
                 style={{
-                  filter: 'brightness(1.1) contrast(1.1)'
+                  filter: 'brightness(1.2) contrast(1.1)'
                 }}
               />
             </div>
