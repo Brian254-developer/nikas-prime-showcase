@@ -25,11 +25,11 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-3 relative z-10">
             <div className="rounded-xl p-2 hover:bg-white/5 transition-all duration-300 hover:scale-105">
               <img 
-                src="/lovable-uploads/ace86e47-0469-456a-82c1-833a8c58080d.png" 
+                src="/src/assets/nikas-realty-logo.jpg" 
                 alt="Nikas Realty" 
-                className="w-24 h-auto"
+                className="w-24 h-auto bg-white/5 rounded-lg p-1"
                 style={{
-                  filter: 'brightness(1.3) contrast(1.3) saturate(1.2) drop-shadow(0 2px 8px rgba(255,215,0,0.3)) drop-shadow(0 0 2px rgba(255,255,255,0.8))'
+                  filter: 'brightness(1.1) contrast(1.1)'
                 }}
               />
             </div>
